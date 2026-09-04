@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                          
+    "module": "commonjs",                                
+    "rootDir": "./src",                        /* Where you write your TS files */
+    "outDir": "./dist",                        /* Where compiled JS files go */
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,                 
+    "skipLibCheck": true,                       
+    "forceConsistentCasingInFileNames": true  
+  }
+}
