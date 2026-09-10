@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
+import { StatusCodes } from "http-status-codes";
 
 export const getHealth = (_req: Request, res: Response) => {
-  res.json({ status: "ok" });
+  res.status(StatusCodes.OK).json("ok" );
 };
